@@ -522,6 +522,9 @@ font-size:20px;
     animation:sticky;
 }
 @media(min-width:300px) and (max-width:767px){
+    body{
+        font-size:12px
+    }
     .heroImg{
         position: relative;
         width:100%;
@@ -575,7 +578,125 @@ right:5%;
     .socialIcons li{
         float: none;
     }
-    requestBtn{
+    .requestBtn{
         width:100%;
     }
+    .heroText{
+        margin-top: 90px;
+    }
+    button.navbar-toggler {
+        position: relative;
+        border: none;
+        height: 40px;
+        width:50px;
+        cursor: pointer;
+        border-radius: 0;
+        opacity: .7;
+        border:1px solid white;
+        text-align: center;
+    }
+    .scrollNav button.navbar-toggler{
+        border-color:#1752F0
+    }
+    .mobileMenu i{
+        background-color: white;
+        border-radius: 2px;
+        content: '';
+        display: block;
+        width: 95%;
+        height: 3px;
+        margin-bottom:5px
+    }
+    .mobileMenu i:last-child{
+    margin-bottom: 0;;
+    }
+    .scrollNav .mobileMenu i{
+        background-color:#1752F0
+    }
+    .navbar{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .nav-link{
+        margin-bottom:10px;
+        margin-top:10px;
+    }
+    .contactUs{
+        padding:20px 0;
+    }
+    
+}
+@media(min-width:768px) and (max-width:1023px){
+    body{
+        font-size:14px
+    }
+    .heroImg{
+        position: relative;
+        width:100%;
+        padding: auto 5%;
+        height: auto;
+    }
+    .heroImg img{
+        width:100%;
+        height: auto;
+    }
+    .hero{
+        padding:20px 0;
+    }
+    .adv{
+        padding:20px 0;
+    }
+    .discount{
+        width:auto;
+    }
+    .discountCircle{
+        margin:auto;
+        margin-bottom: 20px;;
+    }
+    .subscribeBtn{
+        position: relative;
+        width: 100%;;
+    }
+    .nav-pills .nav-item{
+        width:100%;
+
+    }
+    .owl-nav{
+        text-align: center;
+        bottom:-8%;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+right:5%;
+    }
+     .owl-carousel .owl-nav button.owl-prev{
+      left:5%;
+    }
+    .contactForm .form-group.halfFormGroup{
+        width:100%;
+    }
+    .marginForm{
+        margin:0;
+    }
+    .socialIcons{
+        text-align: center;
+    }
+    .socialIcons li{
+        float: none;
+    }
+  .marginBox{
+      margin-top:0;
+  }
+    .heroText{
+        margin-top: 90px;
+    }
+ .navbar-expand-lg .navbar-collapse{
+
+ }
+.navbar-toggler{
+
+    display: none;
+ }    .contactUs{
+        padding:20px 0;
+    }
+    
 }
