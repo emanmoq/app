@@ -556,8 +556,14 @@ font-size:20px;
         width: 100%;;
     }
     .nav-pills .nav-item{
-        width:100%;
+        width:auto;
 
+    }
+    .nav-pills{
+        justify-content: center;
+    }
+    .nav-pills .nav-link{
+padding:5px 10px;
     }
     .owl-nav{
         text-align: center;
@@ -626,6 +632,9 @@ right:5%;
     }
     .contactUs{
         padding:20px 0;
+    }
+    .marginBox{
+        margin-top:50px
     }
     
 }
@@ -706,5 +715,8 @@ flex-basis: auto;
         }
     .requestBtn{
         width:130px;
+    }
+    .marginForm{
+        margin-left:24px;
     }
 }
