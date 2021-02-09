@@ -521,6 +521,9 @@ font-size:20px;
     transition: all .5s;;
     animation:sticky;
 }
+.btn{
+    line-height: 37px;
+}
 @media(min-width:300px) and (max-width:767px){
     body{
         font-size:12px
@@ -653,14 +656,7 @@ right:5%;
         margin:auto;
         margin-bottom: 20px;;
     }
-    .subscribeBtn{
-        position: relative;
-        width: 100%;;
-    }
-    .nav-pills .nav-item{
-        width:100%;
 
-    }
     .owl-nav{
         text-align: center;
         bottom:-8%;
@@ -671,12 +667,8 @@ right:5%;
      .owl-carousel .owl-nav button.owl-prev{
       left:5%;
     }
-    .contactForm .form-group.halfFormGroup{
-        width:100%;
-    }
-    .marginForm{
-        margin:0;
-    }
+  
+  
     .socialIcons{
         text-align: center;
     }
@@ -690,7 +682,8 @@ right:5%;
         margin-top: 90px;
     }
  .navbar-expand-lg .navbar-collapse{
-
+display: flex;
+flex-basis: auto;
  }
 .navbar-toggler{
 
@@ -698,5 +691,20 @@ right:5%;
  }    .contactUs{
         padding:20px 0;
     }
-    
+    .nav-pills .nav-link{
+        padding:5px 10px;
+    }
+    .subscribeBtn{
+        width:140px;
+    }
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;}
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+    .requestBtn{
+        width:130px;
+    }
 }
