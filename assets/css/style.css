@@ -1,0 +1,581 @@
+@font-face{
+    font-family:"DUBAI-BOLD";
+    src:url("../fonts/DUBAI-BOLD.OTF");
+}
+@font-face{
+    font-family:"Dubai-Light";
+    src:url("../fonts/Dubai-Light.otf");
+}
+@font-face{
+    font-family:"DUBAI-MEDIUM";
+    src:url("../fonts/DUBAI-MEDIUM.OTF");
+}
+@font-face{
+    font-family:"DUBAI-REGULAR";
+    src:url("../fonts/DUBAI-REGULAR.OTF");
+}
+img{
+    width:100%;
+}
+a{
+ text-decoration: none;   
+}
+a:hover{
+    color:black
+}
+h1,h2,h3,h4{
+    font-family:"DUBAI-BOLD";
+}
+
+h5,h6{
+    font-family:"DUBAI-MEDIUM";
+}
+span{
+    font-family:"Dubai-Light";
+}
+p{
+    font-family:"DUBAI-REGULAR";
+    font-size:1.3333333333333333em;;
+
+}
+body{
+     font-size: 16px;
+    background-color: #fff;
+    position: relative;
+    direction: rtl;
+    text-align: right;
+    font-family:"DUBAI-REGULAR";
+    color:black;
+}
+.hero{
+    background-image:url("../images/slider.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:50px;
+    padding-bottom:124px;
+}
+.navbar-brand{
+    margin-left:72px;
+    color:white;
+    opacity: 1;
+}
+.scrollNav .navbar-brand{
+    color:#1752F0
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size:1.3333333333333333em;
+    font-family:"DUBAI-REGULAR";
+    padding:0 25px;
+    color:rgba(255,255,255,.75);
+}
+.scrollNav .navbar-expand-lg .navbar-nav .nav-link{
+color:#1752F0;
+opacity: .75;;
+}
+
+.scrollNav .navbar-expand-lg .navbar-nav .nav-item.active .nav-link{
+    color:#1752F0;
+    opacity: 1;
+}
+.navbar-expand-lg .navbar-nav  .nav-item.active .nav-link{
+    font-family:"DUBAI-MEDIUM";
+    color:white
+
+}
+.navbar {
+    float:right;
+    width:80%;
+}
+.requestBtn{
+width:170px;
+height:50;
+border-radius: 12px;
+color:#1752F0;
+background-color: white;;
+font-size:1.3333333333333333em;;
+font-family:"DUBAI-MEDIUM";
+border:1px solid #fff;
+transition: all .5s;
+
+
+}
+.scrollNav .requestBtn {
+    background-color: #1752F0;
+    color:white;
+transition: all .5s;
+}
+.scrollNav .requestBtn:hover{
+    color:#1752F0;
+background-color: white;;
+font-family:"DUBAI-MEDIUM";
+border:1px solid #1752F0;
+
+}
+.requestBtn:hover{
+    background-color: transparent;
+    color:white;
+transition: all .5s;
+}
+.heroSection{
+    position: relative;
+}
+.heroText{
+    margin-top:200px;
+}
+.heroImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 700px;
+    overflow: hidden;  position: absolute;
+    left:0;
+    top:0;
+    width:40%;
+}
+.heroImg img{
+    height: 100%;
+    width:auto
+}
+.heroText h5{
+    font-size:3em;
+    color:white;
+    position: relative;
+}
+.heroText h5:before{
+    position: absolute;
+    content: "";
+    right:0;
+    top:-30px;
+    width:60px;
+    height:6px;
+    background-color: white;;
+}
+.heroText span{
+font-size: 24px;
+color:white;
+}
+.adv{
+    padding-top:220px;
+    padding-bottom:80px;
+}
+.sectionTitle h4{
+    font-size: 2.3333333333333335em;
+    color:#000000;
+    position: relative;
+    display: inline-block;
+
+}
+.sectionTitle h4:before{
+    position: absolute;
+    bottom:-9px;
+    width: 100%;
+    right:0;
+    background-color: #1752F0;
+    height:7px;
+    content:""
+}
+.adv .sectionTitle{
+   margin-top:80px; 
+}
+.sectionTitle p{
+    margin-top:50px;
+    opacity: .5;
+}
+.advBox{
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    padding:65px 50px
+}
+.advBoxIcon{
+    background-color: white;
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+    margin-bottom: 19px;
+    text-align: center;
+    padding:24px;
+
+}
+
+.advBox h4{
+    font-size:2em;
+    margin-bottom: 41px;
+}
+.advBox p{
+    font-size:1.5555555555555556em;
+    opacity: .75;
+}
+.marginBox{
+    margin-top:190px;
+}
+.subscribe{
+    background-image: url("../images/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:44px 0;
+}
+.discount{
+    width:130px;
+}
+.discountCircle{
+    padding:10px;
+border:2px dotted white;
+width:130px;
+height: 130px;
+  border-radius: 50%;
+  text-align: center;
+}
+.discountCircle h6{
+    background-color: white;
+    border-radius: 50%;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height: 104px;
+    font-size: 2.5em;
+    color: #1752F0;
+
+}
+.discount h4{
+    font-size: 2em;;
+    color:white
+}
+.discount p{
+    font-size:1.6666666666666667em;
+    color:white
+}
+.subscribeBox{
+    margin-top:50px;
+}
+.subscribeBox p{
+   font-size:  1.7777777777777777em;
+   color:white;
+}
+.subscribeForm{
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.subscribeBox .form-group{
+    width:100%;
+}
+.subscribeBox .form-control{
+    background-color: white;
+    border:2px solid white;
+    border-radius: 12PX;
+    height:65px;
+}
+.subscribeBtn {
+    background-color: #1752F0;
+    color:white;
+    border:2px solid white;
+    position: absolute;
+height: 65px;
+width: 200px;
+LEFT:0;
+border-radius: 0;
+top:0;
+   border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;;
+transition: all .5s;
+}
+.subscribeBtn:hover{
+    background-color: transparent;
+    color:#1752F0;
+    transition:  all .5s;
+}
+.applications{
+    padding-top: 122px;
+    padding-bottom:100px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+.nav-pills{
+    background-color: white;
+    direction: ltr;
+    text-align: left;
+    margin-bottom:80px;
+    margin-top:130px;
+}
+.nav-pills .nav-link{
+    color:#000000;
+    opacity: .75;
+    padding:14px 55px;
+    font-size: 1.4777777777777777em;
+    font-family:"DUBAI-BOLD";
+}
+.nav-pills .nav-link.active{
+    color:#1752F0;
+    background-color: #F6F6F6;
+    opacity: 1;
+}
+.nav-pills .nav-link:last-child{
+    padding-right:auto
+}
+.nav-pills .nav-item{
+    width: 20%;
+    text-align: center;
+}
+.carreqBtn{
+background-color: #1752F0;
+color:white;
+width:200px;
+height:50px;
+font-size: 1.22222222222em;
+font-family:"DUBAI-BOLD";
+border-radius: 12px;
+border:1px solid #1752F0;
+transition: all .5s;;
+margin-top:20px;
+line-height: 37px;;
+
+}
+.carreqBtn:hover{
+    background-color: transparent;
+    color:#1752F0;
+    transition: all .5s;;
+}
+.carouselItem h5{
+    font-size:1.7777777777777777em;
+    color:#333333;
+}
+.tabCaruselIcon{
+    width:200px;
+    height:200px;
+    background-color: white;
+    border-radius: 50%;
+    margin:auto;
+    margin-bottom: 14px;
+}
+.owl-nav{
+    width:100%;
+    position: absolute;
+bottom:13%;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    width:48px;
+    height:40px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    transition: all .5s;
+
+}
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
+background-color: #1752F0;
+color:white ;
+transition: all .5s;
+}
+.owl-carousel .owl-nav button.owl-next:hover i, .owl-carousel .owl-nav button.owl-prev:hover i{
+    color:white
+}
+.owl-carousel .owl-nav button.owl-next i, .owl-carousel .owl-nav button.owl-prev i{
+    color:#1752F0;
+    font-size:20px;
+}
+.owl-next{
+    right:-10%;
+}
+.owl-prev {
+    left:-10%;
+}
+.contactUs{
+    padding-top:  150px;
+    padding-bottom:80px;
+}
+.contactForm{
+    margin-top:85px;
+    text-align: center;
+}
+
+.marginForm{
+    margin-left:25px;
+}
+.contactForm .form-group{
+    width:100%;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.contactForm .form-group.halfFormGroup{
+    width:48%;
+    display: inline-block;
+}
+.contactForm .form-control{
+    background-color: rgba(246, 246, 246, .55);
+    border:0;
+    height:60px;
+    border-radius: 12px;
+    padding-right:40px;
+}
+.contactForm .form-control::placeholder,textarea{
+    color:black;
+    opacity: .5;
+    font-size: 18px;
+}
+.contactForm textarea.form-control{
+    resize: none;
+    height: 220px;;
+}
+.sendBtn{
+    background-color: #1752F0;
+    color:white;
+    height:50px;
+    line-height: 37px;
+    width:200px;
+    margin-top:26px;
+    transition: all .5s;;
+    border:1px solid #1752F0;
+    font-size:20px;
+    font-family:"DUBAI-BOLD";
+}
+.sendBtn:hover{
+    background-color: transparent;
+    color:#1752F0;
+    transition: all .5s;
+    
+
+}
+.form-group i{
+    position: absolute;
+    top: 36%;
+    right: 17px;
+    color:black;
+    opacity: .5;
+}
+.fa-phone-volume{
+    transform: rotate(-28deg);
+}
+ul{
+    margin:0;
+    padding:0;
+}
+.socialIcons{
+    border-bottom:  1px solid rgba(0,0,0,.3);
+    padding-bottom: 15px;
+}
+.socialIcons li{
+    display: inline-block;
+    width:42px;
+    height:42px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.5);
+    margin-right:15px;
+    float: left;
+    text-align: left;
+    text-align: center;
+    transition: all .5s;
+
+}
+.socialIcons li a{
+    color:white;
+line-height: 20px;
+font-size:20px;
+}
+.socialIcons li i{
+    line-height: 40px;;
+}
+.socialIcons li:hover{
+    background-color: rgba(0,0,0,.1);
+    transition: all .5s;
+}
+.facebook:hover a{
+    color:#3b5998 ;
+}
+.twitter:hover a {
+    color:#00acee;
+}
+.insta:hover a{ 
+    COLOR: #FD1D1D;
+}
+.copyRights {
+    padding:20px 0;
+}
+.copyRights h3{
+    text-align: center;
+    font-size:20px;
+    color:rgba(0,0,0,.5)
+}
+.modal.show .modal-dialog{
+    max-width: 70%;;
+}
+.close{
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+
+}
+.scrollNav {
+    top: 0 !important;
+    z-index: 555;
+    animation-duration: .5s;
+    background: white;
+    position: fixed !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 3px 20px 3px;
+    transition: 1s all;
+    left: 0;
+    width:100%;
+    right:0;
+    padding:10px 0;
+    transition: all .5s;;
+    animation:sticky;
+}
+@media(min-width:300px) and (max-width:767px){
+    .heroImg{
+        position: relative;
+        width:100%;
+        padding: auto 5%;
+        height: auto;
+    }
+    .heroImg img{
+        width:100%;
+        height: auto;
+    }
+    .hero{
+        padding:20px 0;
+    }
+    .adv{
+        padding:20px 0;
+    }
+    .discount{
+        width:auto;
+    }
+    .discountCircle{
+        margin:auto;
+        margin-bottom: 20px;;
+    }
+    .subscribeBtn{
+        position: relative;
+        width: 100%;;
+    }
+    .nav-pills .nav-item{
+        width:100%;
+
+    }
+    .owl-nav{
+        text-align: center;
+        bottom:-8%;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+right:5%;
+    }
+     .owl-carousel .owl-nav button.owl-prev{
+      left:5%;
+    }
+    .contactForm .form-group.halfFormGroup{
+        width:100%;
+    }
+    .marginForm{
+        margin:0;
+    }
+    .socialIcons{
+        text-align: center;
+    }
+    .socialIcons li{
+        float: none;
+    }
+    requestBtn{
+        width:100%;
+    }
+}
