@@ -1,5 +1,6 @@
 jQuery(function ($) {
 
+  // declare slider 
   $('.tabCarusel').owlCarousel({
     autoplay: true,
     loop: false,
@@ -27,7 +28,8 @@ jQuery(function ($) {
   });
  
   function onScroll(event){
-			
+						//add class active when click on navbar item
+
 		var scrollPosition = $(document).scrollTop();
 		$('.navbar-collapse .nav-item a[href^="#"').each(function () {
 			console.log($(this).attr('href')); 
@@ -44,20 +46,20 @@ jQuery(function ($) {
 		});
 	  }
     $(document).on("scroll", onScroll);
+//animate to section when click
 
     $('.navbar-collapse ul li a').on('click', function () {
       $('html, body').animate({ scrollTop: $(this.hash).offset().top  - 5 }, 1000);
       $('.navbar-collapse.collapse.in').removeClass('in');
       return false;
     });
-    
+            // add fix navbar when scroll down and remove it on top 
+
   $(window).scroll(function () {
     scrollTop = $(window).scrollTop();
 
     if (scrollTop > $('header').height()) {
-      $("#counter").css("padding-top", "150px");
       $('header').addClass('scrollNav');
-
 
     }
 
@@ -66,6 +68,8 @@ jQuery(function ($) {
     }
 
   });
+    //close mobile navbar when chooe one of items
+
   $(".navbar .nav-link").click(function(){
     $(".collapse").removeClass("show");
   })

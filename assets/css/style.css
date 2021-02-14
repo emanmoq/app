@@ -17,6 +17,14 @@
 img{
     width:100%;
 }
+:root{
+    --main-color:#1752F0;
+    --font-color:#414141;
+    --font-famiy:"DUBAI-REGULAR";;
+    --bold-font:"DUBAI-BOLD";
+    --background-color:#F6F6F6
+
+}
 a{
  text-decoration: none;   
 }
@@ -24,7 +32,7 @@ a:hover{
     color:black
 }
 h1,h2,h3,h4{
-    font-family:"DUBAI-BOLD";
+    font-family:var(--bold-font);
 }
 
 h5,h6{
@@ -34,7 +42,7 @@ span{
     font-family:"Dubai-Light";
 }
 p{
-    font-family:"DUBAI-REGULAR";
+    font-family:var(--font-family);
     font-size:1.3333333333333333em;;
 
 }
@@ -44,7 +52,7 @@ body{
     position: relative;
     direction: rtl;
     text-align: right;
-    font-family:"DUBAI-REGULAR";
+    font-family:var(--font-family);
     color:black;
 }
 .hero{
@@ -60,21 +68,21 @@ body{
     opacity: 1;
 }
 .scrollNav .navbar-brand{
-    color:#1752F0
+    color:var(--main-color)
 }
 .navbar-expand-lg .navbar-nav .nav-link{
     font-size:1.3333333333333333em;
-    font-family:"DUBAI-REGULAR";
+    font-family:var(--font-family);
     padding:0 25px;
     color:rgba(255,255,255,.75);
 }
 .scrollNav .navbar-expand-lg .navbar-nav .nav-link{
-color:#1752F0;
+color:var(--main-color);
 opacity: .75;;
 }
 
 .scrollNav .navbar-expand-lg .navbar-nav .nav-item.active .nav-link{
-    color:#1752F0;
+    color:var(--main-color);
     opacity: 1;
 }
 .navbar-expand-lg .navbar-nav  .nav-item.active .nav-link{
@@ -90,7 +98,7 @@ opacity: .75;;
 width:170px;
 height:50;
 border-radius: 12px;
-color:#1752F0;
+color:var(--main-color);
 background-color: white;;
 font-size:1.3333333333333333em;;
 font-family:"DUBAI-MEDIUM";
@@ -100,15 +108,15 @@ transition: all .5s;
 
 }
 .scrollNav .requestBtn {
-    background-color: #1752F0;
+    background-color: var(--main-color);
     color:white;
 transition: all .5s;
 }
 .scrollNav .requestBtn:hover{
-    color:#1752F0;
+    color:var(--main-color);
 background-color: white;;
 font-family:"DUBAI-MEDIUM";
-border:1px solid #1752F0;
+border:1px solid var(--main-color);
 
 }
 .requestBtn:hover{
@@ -171,7 +179,7 @@ color:white;
     bottom:-9px;
     width: 100%;
     right:0;
-    background-color: #1752F0;
+    background-color: var(--main-color);
     height:7px;
     content:""
 }
@@ -183,7 +191,7 @@ color:white;
     opacity: .5;
 }
 .advBox{
-    background-color: #F6F6F6;
+    background-color: var(--background-color);
     border-radius: 20px;
     padding:65px 50px
 }
@@ -234,7 +242,7 @@ height: 130px;
     text-align: center;
     line-height: 104px;
     font-size: 2.5em;
-    color: #1752F0;
+    color: var(--main-color);
 
 }
 .discount h4{
@@ -267,7 +275,7 @@ height: 130px;
     height:65px;
 }
 .subscribeBtn {
-    background-color: #1752F0;
+    background-color: var(--main-color);
     color:white;
     border:2px solid white;
     position: absolute;
@@ -282,14 +290,14 @@ transition: all .5s;
 }
 .subscribeBtn:hover{
     background-color: transparent;
-    color:#1752F0;
+    color:var(--main-color);
     transition:  all .5s;
 }
 .applications{
     padding-top: 122px;
     padding-bottom:100px;
     text-align: center;
-    background-color: #F6F6F6;
+    background-color: var(--background-color);
 }
 .nav-pills{
     background-color: white;
@@ -303,11 +311,11 @@ transition: all .5s;
     opacity: .75;
     padding:14px 55px;
     font-size: 1.4777777777777777em;
-    font-family:"DUBAI-BOLD";
+    font-family:var(--bold-font);
 }
 .nav-pills .nav-link.active{
-    color:#1752F0;
-    background-color: #F6F6F6;
+    color:var(--main-color);
+    background-color: var(--background-color);
     opacity: 1;
 }
 .nav-pills .nav-link:last-child{
@@ -318,14 +326,14 @@ transition: all .5s;
     text-align: center;
 }
 .carreqBtn{
-background-color: #1752F0;
+background-color: var(--main-color);
 color:white;
 width:200px;
 height:50px;
 font-size: 1.22222222222em;
-font-family:"DUBAI-BOLD";
+font-family:var(--bold-font);
 border-radius: 12px;
-border:1px solid #1752F0;
+border:1px solid var(--main-color);
 transition: all .5s;;
 margin-top:20px;
 line-height: 37px;;
@@ -333,7 +341,7 @@ line-height: 37px;;
 }
 .carreqBtn:hover{
     background-color: transparent;
-    color:#1752F0;
+    color:var(--main-color);
     transition: all .5s;;
 }
 .carouselItem h5{
@@ -363,7 +371,7 @@ bottom:13%;
 
 }
 .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
-background-color: #1752F0;
+background-color: var(--main-color);
 color:white ;
 transition: all .5s;
 }
@@ -371,7 +379,7 @@ transition: all .5s;
     color:white
 }
 .owl-carousel .owl-nav button.owl-next i, .owl-carousel .owl-nav button.owl-prev i{
-    color:#1752F0;
+    color:var(--main-color);
     font-size:20px;
 }
 .owl-next{
@@ -399,7 +407,7 @@ transition: all .5s;
 
 }
 .contactForm .form-group.halfFormGroup{
-    width:48%;
+    width:47.8%;
     display: inline-block;
 }
 .contactForm .form-control{
@@ -419,20 +427,20 @@ transition: all .5s;
     height: 220px;;
 }
 .sendBtn{
-    background-color: #1752F0;
+    background-color: var(--main-color);
     color:white;
     height:50px;
     line-height: 37px;
     width:200px;
     margin-top:26px;
     transition: all .5s;;
-    border:1px solid #1752F0;
+    border:1px solid var(--main-color);
     font-size:20px;
-    font-family:"DUBAI-BOLD";
+    font-family:var(--bold-font);
 }
 .sendBtn:hover{
     background-color: transparent;
-    color:#1752F0;
+    color:var(--main-color);
     transition: all .5s;
     
 
@@ -607,7 +615,7 @@ right:5%;
         text-align: center;
     }
     .scrollNav button.navbar-toggler{
-        border-color:#1752F0
+        border-color:var(--main-color)
     }
     .mobileMenu i{
         background-color: white;
@@ -622,7 +630,7 @@ right:5%;
     margin-bottom: 0;;
     }
     .scrollNav .mobileMenu i{
-        background-color:#1752F0
+        background-color:var(--main-color)
     }
     .navbar{
         width:100%;
