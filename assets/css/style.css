@@ -730,3 +730,16 @@ flex-basis: auto;
         margin-left:24px;
     }
 }
+@media(min-width:1024px) and (max-width:1200px){
+    .owl-prev{
+        left:10%;
+    }
+    .owl-nav{
+        bottom: -4%;
+    }
+    .owl-next{
+        right:10%;
+    }
+    .contactForm .form-group.halfFormGroup {
+        width: 46.8%;}
+}
